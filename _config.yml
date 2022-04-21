@@ -1,0 +1,153 @@
+# Site
+repository: lucianpalaghe/resume
+favicon: images/favicon.ico
+
+version: 2
+
+name: Lucian Palaghe
+# title: Senior Network System Administrator
+email: l.palaghe@gmail.com
+phone: "+40733041242"
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+github_username:  lucianpalaghe
+linkedin_username: lucianpalaghe
+# About Section
+# about_title: About Me
+# about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Software developer with experience of working in a variety of technical environments with a passion for automation, whether it's continuous integration or deployment and the operational side of software development. Skilled in Software Development, Spring and Java with an emphasis on clean code practices. Not a stranger to GitHub Actions, Kubernetes or Helm either. Strong engineering professional who is looking for interesting problems to solve. Enthusiastic about learning new things and open for new challenges.
+
+content:
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: DevOps engineer
+        sub_title: "@PSS"
+        quote: Retail software solution - Spring Boot based microservices(Java 11) deployed in containers, MongoDB persistence, Keycloak authentication, Maven and NPM build management, GitHub
+        caption: 2021 - Present
+        description: |
+              * created the CI/CD strategy, implemented it with GitHub Actions
+              * created deployments with Helm and Kubernetes(managed, AKS) for various environments
+              * implemented GitOps with Argo CD
+              * implemented automatic versioning and automated dependency updates
+              * implemented cloud monitoring with Prometheus, Grafana, Loki, load testing with K6
+              * code reviews for changes to the Java code-base, pair programming, Java programming on occasion
+      - layout: left
+        title: Full stack developer
+        sub_title: "@PSS"
+        quote: Retail software solution - Spring Boot based microservices(Java 8) deployed in containers, MongoDB persistence, OpenAPI, VueJS+Vuetify front-end, Maven and NPM build management, Jenkins, GitLab
+        caption: 2019 - 2021
+        description: |
+              * definied new APIs, service implementation in Java, wrote unit and integration tests with JUnit 4
+              * created VueJS front-end components
+              * wrote functional tests with Selenium and Cucumber
+              * wrote new Jenkins pipelines that facilitated running all the tests, CI and artifact deployment to Sonatype Nexus
+              * code reviews and GitLab merge requests
+              * wrote markdown documentation and UML diagrams(PlantUML)
+              * helped various team members overcome technical challenges
+      - layout: left
+        title: Java developer
+        sub_title: "@PSS"
+        quote: Self-checkout software solution - Monolith application based on an in-house developed Java framework, relational database persistence(SQLite), Swing front-end
+        caption: 2017 - 2019
+        description: |
+            * implemented changes in the Swing GUI
+            * technical analysis for customer requirements
+            * developing integrations with external payment systems
+      - layout: left
+        title: Java developer
+        sub_title: "@PSS"
+        quote: Employee holiday tracking app, Spring Boot, Hibernate, Vaadin, OAuth sign-on with Microsoft Azure and Jira, employee information integrations with Jira and Tempo
+        caption: 2019
+        description: |
+            POC application for streamlining holiday request approval and management.
+      - layout: left
+        title: Android developer
+        sub_title: "@PSS"
+        quote: Android application that provided store customers with product information. The information was provided by an external REST service using the product barcode as an identifier
+        caption: 2017
+        description: |
+            Developed application from beginning to the end.
+      - layout: left
+        title: Python web developer
+        sub_title: "@PSS"
+        quote: Python and Django web based marketplace application prototype
+        caption: 2016
+        description: |
+            Developed prototype from start to finish, ended up supporting product catalog search, fully functioning cart with basic discounts and transaction export to JSON
+      - layout: left
+        title: Java developer
+        sub_title: "@PSS"
+        quote: Payment software solution - monolith application that supported a secure dataflow for credit/debit card data from the pin-entry-device to the acquiring bank that processed the payments
+        caption: 2015
+        description: |
+            Took over parts of the code-base, adapted the dataflow(payment, settlement, reversal) to various changing specifications(EMV, APACS, etc.).
+      - layout: left
+        title: Java developer
+        sub_title: "@PSS"
+        quote: Retail software solution - monolith application based on an in-house developed Java framework, relational database persistence(Oracle, MSSQL Server), swing front-end, Python scripts for various kinds of automation
+        caption: 2013 - 2015
+        description: |
+            * implemented complete data flows for store operators(screen to database and back)
+            * integrated with external components through REST and SOAP web services
+            * created REST web sevices and exposing them to exernal consumers
+            * various kinds of data export to csv, XML and PDF
+            * various SQL related tasks(defining database table structures, triggers, stored procedures)
+            * business and techincal analysis for customer requirements
+            * created Word based documentation
+      - layout: left
+        title: Working with people
+        sub_title: "@PSS"
+        caption: since 2015
+        description: |
+            Involved in doing technical interviews for junior Java developers, helped with their on-boarding, evaluated their progress and potential, mentored them along their way.
+      - layout: left
+        title: Java instructor
+        sub_title: "@Scoala Informala"
+        caption: 2020 - 2021
+        description: |
+          Taught Java for beginners as part of a 5-month course(participated in 3 consecutive courses).
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: Ambient Box
+        link: https://github.com/lucianpalaghe/ambient-box
+        quote: >
+          ESP32 and BME680 sensor
+        description: |
+          ESP32 based mobile temperature, humidity, pressure, altitude(calculated) and IAQ sensor. Made form a TTGO T-Display board, BME680 sensor, 3.7V LiPo battery and 3D printed case.
+      - layout: top-middle
+        title: Ambient Box PWA
+        link: https://github.com/lucianpalaghe/ambient-box-pwa
+        quote: >
+          Companion app for Ambient Box
+        description: |
+          Companion PWA for https://github.com/lucianpalaghe/ambient-box written with Vue and Typscript. Connects to the Ambint Box through BLE and displays sensor data.
+  - title: Education
+    layout: list
+    content:
+      - layout: top-middle
+        title: Universitatea Transilvania din Brașov
+        caption: 2010 - 2013
+        sub_title: BSc Informatica aplicata
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
