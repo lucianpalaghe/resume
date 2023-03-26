@@ -5,7 +5,7 @@ favicon: images/favicon.ico
 version: 2
 
 name: Lucian Palaghe
-# title: Senior Network System Administrator
+title: Java Technical Lead@Accesa
 email: l.palaghe@gmail.com
 phone: "+40733041242"
 
@@ -18,7 +18,7 @@ linkedin_username: lucianpalaghe
 # about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Software developer with experience of working in a variety of technical environments with a passion for automation, whether it's continuous integration or deployment and the operational side of software development. Skilled in Software Development, Spring and Java with an emphasis on clean code practices. Not a stranger to GitHub Actions, Kubernetes or Helm either. Strong engineering professional who is looking for interesting problems to solve. Enthusiastic about learning new things and open for new challenges.
+  Software developer with experience working in a variety of technical environments. Passionate about automation, whether it's continuous integration, deployment or the operational side of software development. Skilled in Software Development, Java and its vast ecosystem including the Spring framework, as well as other programming languages, with an emphasis on clean code practices. Not a stranger to GitHub Actions, Kubernetes or Helm either. Strong engineering professional who is looking for interesting problems to solve, wise people to learn from and enthusiasts to guide and share knowledge with. Eager to learn new things and open for new challenges.
 
 content:
 
@@ -26,10 +26,20 @@ content:
     layout: list
     content:
       - layout: left
+        title: Java Technical Lead
+        sub_title: "@Accesa"
+        quote: Projects in the banking and insurance industries
+        caption: June 2022 - Present
+        description: |
+              * refactored an existing batch job running application built with Spring Boot, Batch, Hibernate, Oracle Database persistence
+              * involved in internal Accesa projects
+              * involved in mentoring juniors
+              * involved in technical interviews
+      - layout: left
         title: DevOps engineer
         sub_title: "@PSS"
         quote: Retail software solution - Spring Boot based microservices(Java 11) deployed in containers, MongoDB persistence, Keycloak authentication, Maven and NPM build management, GitHub
-        caption: 2021 - Present
+        caption: 2021 - June 2022
         description: |
               * created the CI/CD strategy, implemented it with GitHub Actions
               * created deployments with Helm and Kubernetes(managed, AKS) for various environments
@@ -58,7 +68,7 @@ content:
         description: |
             * implemented changes in the Swing GUI
             * technical analysis for customer requirements
-            * developing integrations with external payment systems
+            * developed integrations with external payment systems
       - layout: left
         title: Java developer
         sub_title: "@PSS"
@@ -113,9 +123,27 @@ content:
         description: |
           Taught Java for beginners as part of a 5-month course(participated in 3 consecutive courses).
 
+  - title: Certifications
+    layout: list
+    content:
+      - layout: top-middle
+        title: GCP Professional Cloud Architect
+        link: https://www.credential.net/5cabeff2-35b8-4f97-8154-21b770939d70?key=f9693324a52b137017a8ea992f7c8056026c1ebedbe3398542c4c10ac075a7f4
+        quote: >
+          February 2023
+        description: |
+          Professional Cloud Architects enable organizations to leverage Google Cloud technologies. With a thorough understanding of cloud architecture and Google Cloud, they design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions to drive business objectives.
+
   - title: Projects
     layout: list
     content:
+      - layout: top-middle
+        title: Chameleon
+        link: https://github.com/lucianpalaghe/chameleon
+        quote: >
+          Game score-keeping app
+        description: |
+          SPA made with Svelte, TailwindCSS, Firestore and Firebase Hosting.
       - layout: top-middle
         title: Ambient Box
         link: https://github.com/lucianpalaghe/ambient-box
@@ -130,6 +158,7 @@ content:
           Companion app for Ambient Box
         description: |
           Companion PWA for https://github.com/lucianpalaghe/ambient-box written with Vue and Typscript. Connects to the Ambint Box through BLE and displays sensor data.
+
   - title: Education
     layout: list
     content:
