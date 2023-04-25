@@ -128,11 +128,32 @@ content:
     content:
       - layout: top-middle
         title: GCP Professional Cloud Architect
-        link: https://www.credential.net/5cabeff2-35b8-4f97-8154-21b770939d70?key=f9693324a52b137017a8ea992f7c8056026c1ebedbe3398542c4c10ac075a7f4
+        link: https://www.credential.net/5cabeff2-35b8-4f97-8154-21b770939d70
         quote: >
           February 2023
         description: |
-          Professional Cloud Architects enable organizations to leverage Google Cloud technologies. With a thorough understanding of cloud architecture and Google Cloud, they design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions to drive business objectives.
+          A Google Cloud Certified - Professional Cloud Architect enables organizations to leverage Google Cloud technologies. Through an understanding of cloud architecture and Google technology, this individual can design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions to drive business objectives.
+          A Google Cloud Certified - Professional Cloud Architect has demonstrated in our assessment their ability to:
+          * Design and plan a cloud solution architecture
+          * Manage and provision the cloud solution infrastructure
+          * Design for security and compliance
+          * Analyze and optimize technical and business processes
+          * Manage implementations of cloud architecture
+          * Ensure solution and operations reliability
+
+      - layout: top-middle
+        title: GCP Professional Cloud Security Engineer
+        link: https://www.credential.net/4d63f9d7-3bbf-4937-bc05-08633f184737
+        quote: >
+          April 2023
+        description: |
+          A Cloud Security Engineer enables organizations to design and implement secure workloads and infrastructure on Google Cloud. Through an understanding of security best practices and industry security requirements, this individual designs, develops, and manages a secure infrastructure by leveraging Google security technologies. The Cloud Security Engineer should be proficient in all aspects of cloud Security including identity and access management, defining organizational structure and policies, using Google technologies to provide data protection, configuring network security defenses, collecting and analyzing Google Cloud logs, managing incident responses, and demonstrating an understanding of the application of dynamic regulatory considerations.
+          The Professional Cloud Security Engineer exam assesses your ability to:
+          * Configure access within a cloud solution environment
+          * Configure network security
+          * Ensure data protection
+          * Manage operations within a cloud solution environment
+          * Ensure compliance
 
   - title: Projects
     layout: list
