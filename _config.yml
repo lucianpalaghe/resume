@@ -82,7 +82,7 @@ content:
         quote: Android application that provided store customers with product information. The information was provided by an external REST service using the product barcode as an identifier
         caption: 2017
         description: |
-            Developed application from beginning to the end.
+            Developed the application from scratch.
       - layout: left
         title: Python web developer
         sub_title: "@PSS"
