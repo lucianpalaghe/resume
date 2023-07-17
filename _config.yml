@@ -155,6 +155,19 @@ content:
           * Manage operations within a cloud solution environment
           * Ensure compliance
 
+      - layout: top-middle
+        title: GCP Professional Cloud Database Engineer
+        link: https://www.credential.net/10ddae1c-6e11-4aee-8cc2-44f3bcc24447
+        quote: >
+          May 2023
+        description: |
+          A Professional Cloud Database Engineer is a database professional with two years of Google Cloud experience and five years of overall database and IT experience. The Professional Cloud Database Engineer designs, creates, manages, and troubleshoots Google Cloud databases used by applications to store and retrieve data. The Professional Cloud Database Engineer should be comfortable translating business and technical requirements into scalable and cost-effective database solutions.
+          The Professional Cloud Database Engineer exam assesses your ability to:
+          * Design scalable and highly available cloud database solutions
+          * Manage a solution that can span multiple database solutions
+          * Migrate data solutions
+          * Deploy scalable and highly available databases in Google Cloud
+
   - title: Projects
     layout: list
     content:
