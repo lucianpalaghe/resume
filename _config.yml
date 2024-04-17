@@ -28,13 +28,14 @@ content:
       - layout: left
         title: Java Technical Lead
         sub_title: "@Accesa"
-        quote: Projects in the banking and insurance industries
+        quote: Projects in the banking industry
         caption: June 2022 - Present
         description: |
+              * involved in developing a customer facing application used to express approval or disproval. Involved in developing an in-bank property evaluation application. Both built using API driven development and a microservice architecture, Spring Boot, Hibernate, Oracle Database persistence, Jenkins CI/CD, deployed in OpenShift.
               * refactored an existing batch job running application built with Spring Boot, Batch, Hibernate, Oracle Database persistence
-              * involved in internal Accesa projects
               * involved in mentoring juniors
               * involved in technical interviews
+              * involved in internal Accesa projects
       - layout: left
         title: DevOps engineer
         sub_title: "@PSS"
