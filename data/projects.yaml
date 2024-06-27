@@ -1,0 +1,16 @@
+projects:
+- title: Chameleon
+  subtitle: Game score-keeping app
+  link: https://github.com/lucianpalaghe/chameleon
+  details: |
+    SPA made with Svelte, TailwindCSS, Firestore and Firebase Hosting.
+- title: Ambient Box
+  subtitle: ESP32 and BME680 sensor
+  link: https://github.com/lucianpalaghe/ambient-box
+  details: |
+    ESP32 based mobile temperature, humidity, pressure, altitude(calculated) and IAQ sensor. Made form a TTGO T-Display board, BME680 sensor, 3.7V LiPo battery and 3D printed case.
+- title: Ambient Box PWA
+  subtitle: Companion app for Ambient Box
+  link: https://github.com/lucianpalaghe/ambient-box-pwa
+  details: |
+    Companion PWA for Ambient Box written with Vue and Typscript. Connects to the Ambint Box through BLE and displays sensor data.

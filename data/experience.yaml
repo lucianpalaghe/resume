@@ -1,0 +1,86 @@
+- company: Accesa
+  roles:
+    - role: Java Technical Lead - banking industry
+      tools: Spring Boot based microservices deployed in OpenShift, API driven development, Hibernate, Oracle Database, OpenAPI, Maven, Jenkins
+      details: |
+        * worked on developing a customer facing application used to asses customer sentiment, relative to certain financial institution initiatives
+        * worked on developing an in-bank property evaluation application
+        * refactored an existing batch job running application built with Spring Boot, Spring Batch, Hibernate, Oracle Database persistence
+        * involved in mentoring juniors
+        * involved in technical interviews
+        * involved in internal Accesa projects
+      date: June 2022 - Present
+
+- company: PSS
+  page: 1
+  roles: 
+    - role: DevOps engineer - retail software solutions
+      tools: Containers, GitHub Actions, Kubernetes, Helm, ArgoCD, Prometheus, Grafana, Loki, K6
+      details: |
+        * created the CI/CD strategy, implemented it with GitHub Actions
+        * created deployments with Helm and Kubernetes(managed, AKS) for various environments
+        * implemented GitOps with Argo CD
+        * implemented automatic versioning and automated dependency updates
+        * implemented cloud monitoring with Prometheus, Grafana, Loki, load testing with K6
+        * code reviews for changes to the Java code-base, pair programming, Java programming on occasion
+      date: 2021 - June 2022
+
+- company: PSS(cont.)
+  page: 2
+  roles:
+    - role: Full stack developer - retail software solutions
+      tools: Spring Boot based microservices deployed in containers, MongoDB, OpenAPI, VueJS+Vuetify, Maven, NPM, Jenkins, GitLab
+      details: |
+        * definied new APIs, service implementation in Java, wrote unit and integration tests with JUnit 4
+        * created VueJS front-end components
+        * wrote functional tests with Selenium and Cucumber
+        * wrote new Jenkins pipelines that facilitated running all the tests, CI and artifact deployment to Sonatype Nexus
+        * wrote markdown documentation and UML diagrams(PlantUML)
+      date: 2019 - 2021
+    - role: Java developer - Self-checkout software solution
+      tools: Monolith application based on an in-house developed Java framework, relational database persistence(SQLite), Swing front-end
+      details: |
+        * implemented changes in the Swing GUI
+        * technical analysis for customer requirements
+        * developed integrations with external payment systems
+      date: 2017 - 2019
+    - role: Java developer - Employee holiday tracking app
+      tools: Spring Boot, Hibernate, Vaadin, OAuth sign-on with Microsoft Azure and Jira, employee information integrations with Jira and Tempo
+      details: |
+        * implemented POC application for streamlining holiday request approval and management
+      date: July 2019
+    - role: Android developer - in-store product information app
+      details: |
+        * developed the application from scratch
+      date: 2017
+    - role: Python web developer
+      details: |
+        * developed marketplace web application prototype with Django
+      date: 2016
+    - role: Java developer - Payment software solution
+      tools: Monolith application that supported a secure dataflow for credit/debit card data from the pin-entry-device to the acquiring bank that processed the payments
+      details: |
+        * took over parts of the code-base
+        * adapted the dataflow(payment, settlement, reversal) to various changing specifications(EMV, APACS, etc.)
+      date: 2015
+    - role: Java developer - Retail software solution
+      tools: Monolith application based on an in-house developed Java framework, relational database persistence(Oracle, MSSQL Server), swing front-end, Python scripts for various kinds of automation
+      details: |
+        * implemented complete data flows for store operators(screen to database and back)
+        * integrated with external components through REST and SOAP web services
+        * created REST web sevices and exposing them to exernal consumers
+        * various kinds of data export to CSV, XML and PDF
+        * various SQL related tasks(defining database table structures, triggers, stored procedures)
+        * business and techincal analysis for customer requirements
+      date: 2013 - 2015
+    - role: Working with people
+      details: |
+        Involved in doing technical interviews for junior Java developers, helped with their on-boarding, evaluated their progress and potential, mentored them along their way.
+      date: since 2015
+- company: Scoala Informala
+  page: 3
+  roles:
+    - role: Java instructor
+      details: |
+        Taught Java for beginners as part of a 5-month course(participated in 3 consecutive courses).
+      date: 2020 - 2021

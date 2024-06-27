@@ -1,0 +1,63 @@
+about:
+  name: Lucian Palaghe
+  tagline: Developer
+  phone: "+40 733 041 242"
+  email: l.palaghe@gmail.com
+  links:
+    - title: /in/lucianpalaghe
+      url: https://linkedin.com/in/lucianpalaghe
+      icon: fab fa-linkedin
+    - title: lucianpalaghe
+      url: https://github.com/lucianpalaghe
+      icon: fab fa-github
+  details: |
+    Software developer with experience working in a variety of technical environments.
+    Skilled in Software Development, Java and its vast ecosystem including the Spring framework, as well as other programming languages, with an emphasis on clean code practices.
+    Not a stranger to GitHub Actions, Kubernetes or Helm either.
+
+    Passionate about automation, whether it's continuous integration, deployment or the operational side of software development.
+
+skills:
+  - groupName: Programming Languages and Frameworks
+    list:
+      - Java
+      - Spring & Spring Boot
+      - JavaScript
+      - Golang
+      - Python
+
+  - groupName: Databases
+    list:
+      - Oracle
+      - MongoDB
+      - Firestore
+      - DB2
+      - SQLite
+
+  - groupName: Misc.
+    list:
+      - Containers(Docker, Podman)
+      - Kubernetes
+      - Helm
+      - Git
+
+languages:
+  - name: English
+    level: Professional
+
+  - name: Romanian
+    level: Native
+
+certificates:
+  - title: Professional Cloud Architect
+    subtitle: Google Cloud Platform
+    date: February 2023
+    link: https://www.credly.com/badges/5a54f45c-9d3d-4e27-8dc9-ab4b9f23e5e4
+  - title: Professional Cloud Security Engineer
+    subtitle: Google Cloud Platform
+    date: April 2023
+    link: https://www.credly.com/badges/df4a92e1-ef9f-4a5f-87ec-921960ad0f2e
+  - title: Professional Cloud Database Engineer
+    subtitle: Google Cloud Platform
+    date: May 2023
+    link: https://www.credly.com/badges/bc002220-ac90-4a9b-996c-8961d1257377

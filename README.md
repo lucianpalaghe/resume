@@ -1,3 +1,3 @@
 # Resume
 
-Markdown resume built with [modern-resume-theme](https://github.com/sproogen/modern-resume-theme).
+Built with [Resume A4](https://themes.gohugo.io/themes/resume-a4/).
