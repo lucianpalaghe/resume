@@ -1,3 +1,13 @@
+- company: FanDuel
+  roles:
+    - role: Lead Software Engineer - iGaming
+      tools: Spring Boot based microservices deployed to EKS, Kafka, DynamoDb, Gradle, BuildKite
+      details: |
+        * lead two back-end teams focusing on development of promotional and generosity tools and features
+        * established technical forums, driving development best practices and creative problem solving addressing issues found across the entire microservices ecossytem 
+        * involved in product feature analysis, techinal proposal, architecture, risks and trade-offs evaluation
+        * drove AI tool adoption within teams by identifying, solving and presenting specific use-cases that can be automated with AI
+      date: October 2024 - now
 - company: Accesa
   roles:
     - role: Java Technical Lead - banking industry
