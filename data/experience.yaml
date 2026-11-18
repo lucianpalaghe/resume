@@ -1,7 +1,7 @@
 - company: FanDuel
   roles:
     - role: Lead Software Engineer - iGaming
-      tools: Spring Boot based microservices deployed to EKS, Kafka, DynamoDb, Gradle, BuildKite
+      tools: Spring Boot based microservices deployed to EKS, Kafka, DynamoDb, Gradle, BuildKite, Claude Code
       details: |
         * lead two back-end teams focusing on development of promotional and generosity tools and features
         * established technical forums, driving development best practices and creative problem solving addressing issues found across the entire microservices ecossytem 
